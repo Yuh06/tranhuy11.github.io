@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form và các điều khiển trên form</title>
+</head>
+<style>
+    table{
+border: darkgrey;
+padding: 1%;
+
+border-top: darkgrey; text-align: center;
+    }
+</style>
+<body>
+    <form action="">
+        <h2 style="color: brown;">Đăng Nhập</h2>
+        <table style="background-color: cyan;" border="2">
+                <tr>
+                    <td>Mã Người Dùng</td>
+                    <td><input type="text" value="Huy"  >
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mật Khẩu</td>
+                    <td><input type="text" value="Tran"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;"> 
+                     
+                        <button type="button" onclick='document.getElementById("demo").innerHTML="Huy"'>Đồng Ý</button>
+                        <p id="demo"></p>
+                    </td>
+                   
+                </tr>
+                    
+        </table>
+    </form>
+</body>
+</html>
